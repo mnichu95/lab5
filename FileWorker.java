@@ -5,7 +5,7 @@ import java.util.concurrent.Callable;
 public class FileWorker implements Callable {
 
 	private FileSender fileSender;
-	String path = "C:\\Users\\Gosia\\Desktop\\ss115.jpg";
+	String path;
 
 	public FileWorker(FileSender fileSender, String path) {
 		this.fileSender = fileSender;
